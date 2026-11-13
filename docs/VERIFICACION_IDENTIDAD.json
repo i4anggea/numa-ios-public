@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-22",
+  "version": "0.2.0",
+  "build": "2",
+  "baselineCommit": "e679b06d32b5bede9888fc15df469eb0467cfb7e",
+  "automatedTests": {
+    "status": "PASS",
+    "core": 28,
+    "storage": 13,
+    "ui": 7,
+    "total": 48,
+    "command": "python3 scripts/validate.py full"
+  },
+  "visualOnlyFollowup": {
+    "scope": "Fondo semántico de las tarjetas para distinguirlas en modo oscuro después de la regresión completa.",
+    "build": "PASS",
+    "unsignedArchive": "PASS",
+    "visualDarkReview": "PASS"
+  },
+  "archiveChecks": {
+    "status": "PASS",
+    "identity": "PASS",
+    "version": "PASS",
+    "icon": "PASS",
+    "manifest": "PASS",
+    "debugMarkersAbsent": "PASS",
+    "signed": false,
+    "binarySHA256": "8e88416750842ecad8e00069411b561df546f40b90a4b300e677123c5159e2b9"
+  },
+  "sourceChecks": {
+    "localMarkdownLinks": 65,
+    "generator": "PASS",
+    "privacyManifest": "PASS",
+    "appIcon": "PASS"
+  },
+  "cleanCheckoutSourceChecks": "PASS",
+  "localSigningPreserved": "PASS",
+  "logoReproducible": "PASS",
+  "secretScan": {
+    "tool": "gitleaks 8.30.1",
+    "stagedFiles": "PASS",
+    "findings": 0
+  },
+  "visualInspection": {
+    "homeLight": "PASS",
+    "homeDark": "PASS",
+    "homeMaximumDynamicType": "PASS",
+    "scope": "Inspección visual de Inicio, no auditoría exhaustiva de accesibilidad."
+  },
+  "physicalDevice": {
+    "status": "NOT_RUN",
+    "reason": "Actualización 0.2.0, VoiceOver, bloqueo físico y avisos pendientes en el iPhone."
+  }
+}

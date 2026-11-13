@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Numa</title>
+  <desc id="desc">Una N blanca de trazos redondeados, equilibrada entre dos apoyos, con un último trazo ascendente sobre fondo azul profundo.</desc>
+  <rect width="1024" height="1024" rx="266" fill="#123D78"/>
+  <path d="M286.72 716.8V307.2L737.28 716.8V307.2" fill="none" stroke="white" stroke-width="102.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
